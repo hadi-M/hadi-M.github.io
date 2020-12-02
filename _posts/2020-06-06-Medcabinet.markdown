@@ -7,40 +7,7 @@ tags: MachineLearning Medical
 image: /assets/article_images/2020-06-06-Medcabinet/medcab.jpg
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
 
-
 ---
-#Mediator Medcabinet Project
-
-Examples for different formats and css features
-
-#Header Formats
-#Header1
-##Header2
-
-#Blockquotes
->Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-
-#Lists
-##orderd lists
-1. one
-2. two
-3. three
-
-##unorderd lists
-- Apple
-- Banana
-- Plum
-
-#Links
-This is an [example link](http://example.com/ "With a Title").
-
-#Combinations
->Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
->
-> - Apple
-> - Banana
-> - Plum
-
 # Med Cabinet
 This project was made in order to recommend the closest Cannabis product desirable to the users' taste. This was done on a cross-functional team.
 our role as Data Engineers was to provide 2 API routes for the Web Developement team.
@@ -156,3 +123,4 @@ JSON: list of a dictionaries which each contain 4 keys ("name", "description", "
     },
     ...
 ]
+```
