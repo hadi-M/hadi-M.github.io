@@ -48,11 +48,11 @@ One endpoint to show user all of the Cannabis strains and their tastes and effec
 After user chooses a strain, that would be sent to use using another endpoint, we would then use the ML model that was provided to us (pickled) from the ML team, and feed the user inputs to it, then return the result back to the Web Developement team.
 The data was all scraped from weed Weedmaps using their [API](https://developer.weedmaps.com/)
 These are the endpoint:
-
 # APIs:
 Base URL is https://weed-data-bw.herokuapp.com
-
 ## POST [/model](https://weed-data-bw.herokuapp.com/model)
+
+
 
 ### Request:
 JSON object in the following format:
