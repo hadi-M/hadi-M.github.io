@@ -4,10 +4,12 @@ title:  "Medical Cabinet"
 date:   2020-06-06 14:34:25
 categories: machine-learning medical
 tags: MachineLearning Medical
-image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
+image: assets/article_images/2020-06-06-Medcabinet/medcab.jpg
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
+
+
 ---
-#Mediator Formats and CSS features
+#Mediator Medcabinet Project
 
 Examples for different formats and css features
 
