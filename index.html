@@ -67,9 +67,9 @@ layout: default
           <h2 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}"
               itemprop="url">{{ post.title }}</a></h2>
         </header>
-        {% if post.featured %}
+        {% if post.ThumbnailVideo %}
         <video width="320" height="240" controls>
-          <source src="movie.mp4" type="video/mp4">
+          <source src="{{post.ThumbnailVideo}}"" type="video/mp4">
           <source src="movie.ogg" type="video/ogg">
           Your browser does not support the video tag.
         </video>

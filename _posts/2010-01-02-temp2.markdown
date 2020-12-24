@@ -6,6 +6,7 @@ categories: mediator feature
 tags: featured
 image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
+ThumbnailVideo: https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4
 ---
 #Mediator Formats and CSS features
 
