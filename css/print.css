@@ -21,3 +21,7 @@ page-break-after:never
 .subscribe icon-feed{
   display:none;
 }
+.article-video{
+  width: 100%;
+  height: 100%
+}
