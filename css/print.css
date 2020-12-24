@@ -23,5 +23,10 @@ page-break-after:never
 }
 .article-video{
   width: 100%;
-  height: 100%
+  height: 100%;
+  filter: grayscale(100%)
+}
+.article-video:hover{
+  filter: grayscale(0%);
+  transition-delay: 0.5s
 }
