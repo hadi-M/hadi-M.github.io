@@ -12,12 +12,30 @@ ThumbnailVideo: https://file-examples-com.github.io/uploads/2017/04/file_example
 # Med Cabinet
 This project was made in order to recommend the closest Cannabis product desirable to the users' taste. This was done on a cross-functional team.
 our role as Data Engineers was to provide 2 API routes for the Web Developement team.
+# How it works
+First, in order to create the model, we scraped the data from [weedmaps](https://weedmaps.com/).
+The data was all scraped from weed Weedmaps using their [developer API](https://developer.weedmaps.com/).
+
+This is what the final cleaned table looks like
+
+| name                  	| 24K Gold, also...     	| Blueberry 	| Cheese 	| Chestnut 	|
+|-----------------------	|-----------------------	|-----------	|--------	|----------	|
+| 24K Gold              	| 303 OG Kush is...     	| 1         	| 0      	| 0        	|
+| 303 OG Kush           	| While the original... 	| 0         	| 0      	| 1        	|
+| 3 Kings (Three Kings) 	| 3X Crazy, also...     	| 1         	| 1      	| 0        	|
+
+You can take a look at the complete scraped data in [this link](https://github.com/Build-Week-Med-Cabinet-2-MP/bw-med-cabinet-2-ml/blob/master/data/CLEAN_WMS_2020_05_24.csv)
+
+Then we needed to create a model to recommend 
+
 One endpoint to show user all of the Cannabis strains and their tastes and effects.
 After user chooses a strain, that would be sent to use using another endpoint, we would then use the ML model that was provided to us (pickled) from the ML team, and feed the user inputs to it, then return the result back to the Web Developement team.
-The data was all scraped from weed Weedmaps using their [API](https://developer.weedmaps.com/)
+
 These are the endpoint:
+
 # APIs:
-Base URL is https://weed-data-bw.herokuapp.com
+Base URL is https://weed-data-bw.herokuapp.com(https://weed-data-bw.herokuapp.com) which there you can see github icon as a link, directing to our complete repo of the Front-End, Back-end,
+marketing and Data Engineering repos.
 ## POST [/model](https://weed-data-bw.herokuapp.com/model)
 
 
